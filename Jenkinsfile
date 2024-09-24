@@ -12,5 +12,17 @@ pipeline {
       }
     }
 
+    stage('install node v10') {
+      steps {
+        sh 'echo "hello2"'
+      }
+    }
+
+    stage('build node package') {
+      steps {
+        sh 'echo "hello3"'
+      }
+    }
+
   }
 }
