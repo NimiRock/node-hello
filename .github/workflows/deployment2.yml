@@ -10,7 +10,7 @@ jobs:
               run: npm ci
     test:
         needs: build
-        runs-ond: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Get Code
               uses: actions/checkout@v4
